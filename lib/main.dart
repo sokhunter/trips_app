@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'descripcion_place.dart';
+import 'review_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,8 +18,7 @@ class MyApp extends StatelessWidget {
         ),
         home: Scaffold(
           appBar: AppBar(title: Text("TripsApp")),
-          body: new DescripcionPlace(
-              "Duwili Ella", 4, "Lorem ipsum dolor sit amet"),
+          body: Review_list(),
         ));
   }
 }

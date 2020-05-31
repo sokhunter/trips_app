@@ -46,7 +46,10 @@ class DescripcionPlace extends StatelessWidget {
           margin: EdgeInsets.only(top: 320.0, left: 20.0, right: 20.0),
           child: Text(
             namePlace,
-            style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.w900),
+            style: TextStyle(
+                fontSize: 30.0,
+                fontWeight: FontWeight.w900,
+                fontFamily: "Raleway"),
             textAlign: TextAlign.left,
           ),
         ),
